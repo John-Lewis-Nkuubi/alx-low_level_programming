@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Main program will assign a random number to the variable n
  * Return - 0 (success)
  */
 
