@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Program prints last digit of a number
- * Return - 0 (success)
+ * Return: 0 (success)
  */
 
 /* betty style doc for function main goes there */
