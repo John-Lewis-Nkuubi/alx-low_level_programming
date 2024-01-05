@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main: Prints alphabet in lowercase, and then in uppercase
+ * Program: 3-print_alphabets.c
+ * Description: Prints the alphabet in lowercase, and then in uppercase
  * Return: 0 (success)
  */
 
@@ -12,10 +13,15 @@ int main(void)
 
 	n = 'a';
 	v = 'A';
-	for (n = 'a', v = 'A'; n <= 'z' && v <= 'Z'; n++, v++)
+	for (n = 'a'; n <= 'z'; n++)
 	{
 		putchar (n);
+		putchar ('\n');
+	}
+	for (n = 'A'; n <= 'Z'; v++)
+	{
 		putchar (v);
+		putchar ('\n');
 	}
 	putchar ('\n');
 	return (0);
