@@ -10,6 +10,7 @@ int main(void)
 	int q;
 
 	for (q = 0; q < 10; q++)
-		printf("%d\n", q);
+		printf("%d", q);
+	putchar ('\n');
 	return (0);
 }
