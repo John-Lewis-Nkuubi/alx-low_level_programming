@@ -2,7 +2,7 @@
 
 /**
  * main - Program that prints lowercase of the aphabet
- * return - (0) success
+ * Return: (0) success
  */
 
 int main(void)
