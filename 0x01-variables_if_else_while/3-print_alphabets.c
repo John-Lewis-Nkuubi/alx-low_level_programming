@@ -16,12 +16,10 @@ int main(void)
 	for (n = 'a'; n <= 'z'; n++)
 	{
 		putchar (n);
-		putchar ('\n');
 	}
 	for (n = 'A'; n <= 'Z'; v++)
 	{
 		putchar (v);
-		putchar ('\n');
 	}
 	putchar ('\n');
 	return (0);
