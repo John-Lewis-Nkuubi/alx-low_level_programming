@@ -13,20 +13,15 @@
 
 int main(void)
 {
-	int l, m, n;
+	int l;
 
 	l = '0';
-	m = ',';
-	n = ' ';
 	while (l < 10)
 	{
 		putchar (l + '0');
-		putchar (m);
-		putchar (n);
+		putchar (',');
+		putchar (' ');
 	}
-	l++;
-	m++;
-	n++;
 	putchar ('\n');
 	return (0);
 }
