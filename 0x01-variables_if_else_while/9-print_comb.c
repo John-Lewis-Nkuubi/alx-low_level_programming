@@ -15,12 +15,14 @@ int main(void)
 {
 	int l;
 
-	l = '0';
-	while (l < 10)
+	for (l = 0;l < 10; l++)
 	{
 		putchar (l + '0');
-		putchar (',');
-		putchar (' ');
+		if (l < 9)
+		{
+			putchar (',');
+			putchar (' ');
+		}
 	}
 	putchar ('\n');
 	return (0);
