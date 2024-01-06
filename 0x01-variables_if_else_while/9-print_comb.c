@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	char l, m, n;
+	int l, m, n;
 
 	l = '0';
 	m = ',';
