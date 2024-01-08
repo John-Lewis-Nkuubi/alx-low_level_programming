@@ -29,7 +29,7 @@ int main(void)
 		{
 			for (o = '0'; o <= '9'; o++)
 			{
-				if (!((o == t) || (t == h)) || ((t > o) && (h > t)))
+				if (!((o == t) || (t == h) || (t > o) || (h > t)))
 				{
 					putchar(h);
 					putchar(t);
@@ -38,7 +38,7 @@ int main(void)
 					{
 						putchar(',');
 						putchar(' ');
-					}					
+					}
 				}
 			}
 		}
