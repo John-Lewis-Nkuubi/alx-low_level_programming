@@ -29,7 +29,7 @@ int main(void)
 		{
 			for (o = '0'; o <= '9'; o++)
 			{
-				if (!(((o == t) && (t == h)) || ((h > t) && (t > o))))
+				if (!((o == t) && (t == h) || (h > t) && (t > o)))
 				{
 					putchar(h);
 					putchar(t);
