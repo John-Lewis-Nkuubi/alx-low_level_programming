@@ -8,6 +8,8 @@
 
 int print_sign(int n)
 {
+	int neg = -1;
+	char y = (char) neg;
 	if (n > 0)
 	{
 		_putchar('+');
@@ -21,6 +23,6 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
-		return (48);
+		return (y);
 	}
 }
