@@ -19,5 +19,6 @@ int main(void)
 		x = y;
 		y = sum;
 	}
+	printf("%ld\n", h);
 	return (0);
 }
