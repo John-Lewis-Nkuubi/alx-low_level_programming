@@ -6,7 +6,7 @@
  * @n: size of second string
  * Return: Always 0
  */
-char *strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int h;
 
