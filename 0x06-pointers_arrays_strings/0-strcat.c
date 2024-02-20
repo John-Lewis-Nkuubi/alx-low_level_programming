@@ -1,9 +1,10 @@
 #include "main.h"
 
 /*
- * _strcat: a function that concatenates two strings
- *
- * Return: destination string (char *src)
+ * _strcat: concatenates 2 sreings
+ * @dest: string with concatenation
+ *@src: string to be concatenated
+ * Return: Always 0.
  */
 
 char *_strcat(char *dest, char *src)
