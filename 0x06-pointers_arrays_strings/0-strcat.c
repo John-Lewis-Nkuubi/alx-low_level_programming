@@ -2,7 +2,7 @@
 
 /*
  * *_strcat:  a function that concatenates two strings
- * 
+ *
  * Return: destination string (char *src)
  */
 char *_strcat(char *dest, char *src)
@@ -11,12 +11,12 @@ char *_strcat(char *dest, char *src)
 
 	for (len1 = 0; dest[len1] != '\0'; len1++)
 	{
-	
+
 	}
 
 	for (len2 = 0; src[len2] != '\0'; len2++)
 	{
-	
+
 	}
 
 	for (i = 0; i <= len2; i++)
