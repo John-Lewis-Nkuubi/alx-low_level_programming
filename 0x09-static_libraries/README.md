@@ -7,7 +7,7 @@ By the end of this project, wihtout the help of google i was able to answer the 
 
 ## Assignments
 
-- libholberton.a: Create the static library libholberton.a containing all the functions listed below;
+- libmy.a: Create the static library libmy.a containing all the functions listed below;
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
